@@ -7,8 +7,8 @@ spec:
     name: roboshop
     component: frontend
     environment: dev
-    
+
   ports:
-  - potocol: TCP
-    port: 80
-    targetPort: 80
+    - potocol: TCP
+      port: 80
+      targetPort: 80
