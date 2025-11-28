@@ -9,3 +9,5 @@ spec:
 
   - name: almalinux
     image: almalinux:9
+
+
