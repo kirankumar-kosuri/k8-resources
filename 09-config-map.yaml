@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: pod-congig
+  name: pod-config
 data:
   name: "DevSecOps with AWS"
   duration: "120hrs"
