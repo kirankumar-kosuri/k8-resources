@@ -6,12 +6,9 @@ metadata:
   labels:
     name: nginx
     project: roboshop
-    
 spec:
   containers:
   - name: nginx
     image: nginx
     ports:
     - containerPort: 80
-
-    

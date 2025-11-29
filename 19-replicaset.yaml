@@ -6,7 +6,6 @@ metadata:
   labels:
     purpose: rs-demo
     project: roboshop
-    
 spec:
   replicas: 10
   selector:
