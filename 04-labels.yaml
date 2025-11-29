@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   name: frontend
   labels:
-   project: roboshop
-   component: frontend
-   environment: dev
-   version: v1
-spec:
-  containers:
-  - name: frontend
-    image: nginx
+    project: roboshop
+    component: frontend
+    environment: development
+    version: v1
 
+  spec:
+    containers:
+    - name: frontend
+      image: nginx
