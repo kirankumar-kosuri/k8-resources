@@ -1,10 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: annotations-demo
+  name: annotations
   annotations:
-    jenkins-url: "http://jenkins/joindevops.com/build/job/5"
-    imageregistory: "https://hub.docker.com/"
+    jenkins-url: "http://jenkins.joindevops.com/build/job/5"
+    imageregistry: "https://hub.docker.com/"
+
+
 spec:
   containers:
   - name: nginx
