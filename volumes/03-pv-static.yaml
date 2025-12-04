@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
   - ReadWriteOnce
-  PersistentVolumeReclaimPolicy: Retain #--> retain means don't delete data, Recycle means delete data ddon't delete disk, Delete means delete the disk.
+  PersistentVolumeReclaimPolicy: Retain #--> retain means don't delete data, Recycle means delete data ddon't delete disk, Delete means delete the disk..
   capacity:
     storage: 15Gi
   csi:
