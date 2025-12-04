@@ -7,7 +7,7 @@ spec:
   - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain #--> Retain means if pod deleted data will be safe disk will delete...Delete means if pod deleted data and disk will also be delete...Recycle means if pod deleted data will be delete disk will be safe.
   capacity:
-    storage: 5Gi
+    storage: 15Gi
   csi:
     driver: ebs.csi.aws.com
     fsType: ext4
