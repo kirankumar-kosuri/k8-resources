@@ -35,7 +35,7 @@ spec:
   - name: nginx
     image: nginx
     volumeMounts:
-    - name: ebs-static
+    - name: nginx-html
       mountPath: /usr/share/nginx/html
 
   volumes:
