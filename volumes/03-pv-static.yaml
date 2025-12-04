@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ebs-static
+spec:
+  accessModes:
+  - ReadWriteOnce
+  PersistentVolumeReclaimPolicy: Retain #--> retain means don't delete data, Recycle means delete data ddon't delete disk, Delete means delete the disk.
+  capacity:
+    storage: 15Gi
+  csi:
+    driver: ebs.csi.aws.com
+    fsType: ext4
+    volumeHandle: vol-006fc737b8b22a863
+
+ 
