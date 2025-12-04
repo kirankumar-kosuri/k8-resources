@@ -26,6 +26,7 @@ spec:
     requests:
       storage: 15Gi
 ---
+
 apiVersion: v1
 kind: Pod
 metadata:
