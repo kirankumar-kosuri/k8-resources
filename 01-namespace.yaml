@@ -1,12 +1,20 @@
+# Creating Nmaespace for Roboshop
+########################################
+# apiVersion: v1
+# kind: Namespace
+# metadata:
+#   name: roboshop
+#   labels:
+#     environment: development
+#     project: roboshop
+
 apiVersion: v1
 kind: Namespace
-metadata:
+metadata:   
   name: roboshop
   labels:
-    environment: development
     project: roboshop
-
-
+    environment: development
 
 
 
