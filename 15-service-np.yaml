@@ -1,3 +1,19 @@
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: nginx-np
+# spec:
+#   type: NodePort
+#   selector:
+#     project: roboshop
+#     component: frontend
+#     environment: dev
+#     purpose: node-port
+#   ports:
+#     - protocol: TCP
+#       port: 80 # service port
+#       targetPort: 80 # container port
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -8,8 +24,9 @@ spec:
     project: roboshop
     component: frontend
     environment: dev
-    purpose: node-port
+    purpose: nginx-np
+
   ports:
-    - protocol: TCP
-      port: 80 # service port
-      targetPort: 80 # container port
+  - protocol: TCP
+    port: 80
+    targetPort: 80
