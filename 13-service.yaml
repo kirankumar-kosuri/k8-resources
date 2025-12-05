@@ -13,6 +13,18 @@
 #       targetPort: 80 # container port
 
 
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+spec:
+  selector:
+    project: roboshop
+    component: frontend
+    environment: dev
 
-
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
   
