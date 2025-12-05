@@ -1,19 +1,5 @@
-# kind: Pod
-# apiVersion: v1
-# metadata:
-#   name: env-demo
-# spec:
-#   containers:
-#   - name: nginx
-#     image: nginx
-#     env:
-#     - name: course
-#       value: kubernetes
-#     - name: trainer
-#       value: sivakumar
-
-apiVersion: v1
 kind: Pod
+apiVersion: v1
 metadata:
   name: env-demo
 spec:
@@ -24,4 +10,5 @@ spec:
     - name: course
       value: kubernetes
     - name: trainer
-      value: kiran
+      value: sivakumar
+
