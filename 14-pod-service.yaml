@@ -22,6 +22,6 @@ metadata:
     # environment: dev
 
 spec:
-  containerPort:
+  containers:
   - name: nginx
     image: nginx
