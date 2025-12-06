@@ -46,7 +46,6 @@ spec:
       name: nginx-logs
       readOnly: true
 
-
   volumes:
   - name: nginx-logs
     emptyDir:
