@@ -43,8 +43,8 @@ kind: Service
 metadata:
   name: nginx-headless
 spec:
+  clusterIP: None
   selector:
-    clusterIP: None
     project: roboshop
     purpose: headless-svc-demo
   ports:
